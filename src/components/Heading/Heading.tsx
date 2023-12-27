@@ -18,7 +18,12 @@ export default function Heading() {
           </a>
         </div>
       </div>
-      <a href='' id={s.githubLink}>
+      <a
+        href='https://github.com/phiHero/typesense-guitar-chords'
+        target='_blank'
+        rel='noopener noreferrer'
+        id={s.githubLink}
+      >
         <GithubIcon />
       </a>
     </>
