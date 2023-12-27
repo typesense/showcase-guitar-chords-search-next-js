@@ -9,16 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tombatossals/react-chords": "^0.2.10",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-instantsearch": "^7.5.0",
+    "typesense-instantsearch-adapter": "^2.7.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "sass": "^1.69.5",
+    "typescript": "^5"
   }
 }

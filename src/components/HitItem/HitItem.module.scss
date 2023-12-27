@@ -1,0 +1,15 @@
+.HitItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    margin-bottom: -1rem;
+    font-size: calc(var(--step-0) + 0.2vmax);
+  }
+  svg {
+    max-width: 250px;
+  }
+  #posCount {
+    font-size: var(--step--1);
+  }
+}

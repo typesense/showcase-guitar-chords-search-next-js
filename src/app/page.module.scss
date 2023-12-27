@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: calc(3rem + 3.5vmax) 1rem;
+  min-height: 100vh;
+  min-height: 100dvh;
+  gap: 4rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+
+  :global(.ais-InfiniteHits) {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+
+    :global(.ais-InfiniteHits-list) {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(max(30%, 140px), 1fr));
+      list-style: none;
+      gap: 2rem 0.5rem;
+    }
+    .loadMoreBtn {
+      align-self: center;
+      padding: 6px 12px;
+      border-radius: 5px;
+      color: var(--700);
+      background-color: #fff0;
+      border: 1px solid var(--700);
+      transition: all 0.25s;
+      &:hover {
+        background-color: var(--700);
+        color: var(--100);
+      }
+    }
+  }
+
+  .row {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 2rem;
+    min-height: 474px;
+  }
+}
