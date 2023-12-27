@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "start:typesense": "docker compose up",
-    "populate:typesense": "npx tsx ./scripts/populateTypesense.ts"
+    "index:typesense": "npx tsx ./scripts/indexTypesense.ts"
   },
   "dependencies": {
     "@tombatossals/react-chords": "^0.2.10",
