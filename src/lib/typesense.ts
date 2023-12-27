@@ -13,5 +13,6 @@ export const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   },
   additionalSearchParameters: {
     query_by: 'key,suffix',
+    num_typos: 0,
   },
 });
