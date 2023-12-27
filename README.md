@@ -13,7 +13,7 @@ View it live here: [typesense-guitar-chords.vercel.app](https://typesense-guitar
 
 All make for a blazingly fast search experience 🔥🔥🔥
 
-The guitar chord dataset is from <a href="https://github.com/tombatossals/chords-db" target="_blank">tombatossals</a> which contains 2141 chord shapes of 552 chords.
+The guitar chord dataset & chord svg generation is from <a href="https://github.com/tombatossals/chords-db" target="_blank">tombatossals</a> which contains 2141 chord shapes of 552 chords.
 
 The web app is deployed on Vercel, powered by Typesense cluster running on <a href="https://cloud.typesense.org" target="_blank">Typesense Cloud</a>.
 
