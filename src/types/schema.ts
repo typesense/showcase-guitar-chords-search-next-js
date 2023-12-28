@@ -11,5 +11,5 @@ export type _chordPosition = {
   frets: number[];
   fingers: number[];
   barres: number[];
-  capo?: true;
+  capo?: boolean;
 };

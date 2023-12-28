@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "start:typesense": "docker compose up",
-    "index:typesense": "npx tsx ./scripts/indexTypesense.ts"
+    "index:typesense": "npx tsx ./scripts/indexTypesense.ts",
+    "cypress:open": "cypress open",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@tombatossals/react-chords": "^0.2.10",
@@ -20,12 +23,20 @@
     "typesense-instantsearch-adapter": "^2.7.1"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.6",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "cypress": "^13.6.2",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
+    "happy-dom": "^12.10.3",
     "sass": "^1.69.5",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite-tsconfig-paths": "^4.2.2",
+    "vitest": "^1.1.0"
   }
 }
