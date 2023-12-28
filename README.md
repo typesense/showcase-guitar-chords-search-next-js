@@ -27,9 +27,12 @@ The web app is deployed on Vercel, powered by Typesense cluster running on <a hr
 To run this project locally, make sure you have docker and nodejs, install the dependencies and run the local server:
 
 ```shell
+git clone https://github.com/phiHero/typesense-guitar-chords.git
+cd typesense-guitar-chords
+
 npm i
 
-npm run start:typesense
+npm run start:typesense # or: docker compose up
 
 npm run index:typesense
 
