@@ -14,7 +14,7 @@ describe('Visit website', () => {
     cy.get('[placeholder="Search..."]').type('C major{enter}');
     cy.get(hitListClass).find('li').should('have.length.at.least', 1);
   });
-  it('Display result when search "noResultTest"', () => {
+  it('Display no result when search "noResultTest"', () => {
     cy.visit('/');
     cy.get('[placeholder="Search..."]').type('noResultTest{enter}');
     cy.get(hitListClass).find('li').should('have.length', 0);
