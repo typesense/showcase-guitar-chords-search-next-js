@@ -8,16 +8,16 @@ const classNames = {
 export default function SearchAndFilter() {
   return (
     <aside className={s.SearchAndFilter}>
-      <h3>Filter results</h3>
+      <h2>Filter results</h2>
       {/*//TODO: implement debounce */}
       <SearchBox placeholder='Search...' searchAsYouType={false} />
-      <h4>Key</h4>
+      <h3>Key</h3>
       <RefinementList
         attribute='key'
         sortBy={['name']}
         classNames={classNames}
       />
-      <h4>Capo</h4>
+      <h3>Capo</h3>
       <RefinementList attribute='positions.capo' classNames={classNames} />
     </aside>
   );

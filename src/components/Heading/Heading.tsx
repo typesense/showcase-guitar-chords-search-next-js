@@ -23,6 +23,7 @@ export default function Heading() {
         target='_blank'
         rel='noopener noreferrer'
         id={s.githubLink}
+        title='Github repo'
       >
         <GithubIcon />
       </a>
