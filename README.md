@@ -5,7 +5,7 @@ View it live here: [typesense-guitar-chords.vercel.app](https://typesense-guitar
 ## Tech Stack
 
 - <a href="https://github.com/typesense/typesense" target="_blank">Typesense</a>
-- NextJS
+- NextJS. There is also a [Nuxt version](https://github.com/phiHero/typesense-guitar-chords-nuxt)
 - Typescript
 - Sass
 - Vitest
