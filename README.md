@@ -29,9 +29,9 @@ To run this project locally, make sure you have docker and nodejs, install the d
 Installation
 
 ```shell
-git clone https://github.com/phiHero/typesense-guitar-chords-nuxt.git
+git clone https://github.com/phiHero/typesense-guitar-chords-nextjs.git
 
-cd typesense-guitar-chords-nuxt
+cd typesense-guitar-chords-nextjs
 
 npm i
 ```
