@@ -26,17 +26,33 @@ The web app is deployed on Vercel, powered by Typesense cluster running on <a hr
 
 To run this project locally, make sure you have docker and nodejs, install the dependencies and run the local server:
 
+Installation
+
 ```shell
-git clone https://github.com/phiHero/typesense-guitar-chords.git
-cd typesense-guitar-chords
+git clone https://github.com/phiHero/typesense-guitar-chords-nuxt.git
+
+cd typesense-guitar-chords-nuxt
 
 npm i
+```
 
+Start typesense server
+
+```shell
 npm run start:typesense # or: docker compose up
+```
 
+Index data into typesense
+
+```shell
 npm run index:typesense
+```
 
+Start the dev web app
+
+```shell
 npm run dev
 ```
 
 Open http://localhost:3000 to see the app ✌️
+
