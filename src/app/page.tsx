@@ -17,7 +17,7 @@ export default function Home() {
           searchClient={typesenseInstantsearchAdapter.searchClient}
           future={{ preserveSharedStateOnUnmount: true }}
         >
-          <Configure hitsPerPage={6} />
+          <Configure hitsPerPage={12} />
           <SearchAndFilter />
           <InfiniteHits
             hitComponent={HitItem}
