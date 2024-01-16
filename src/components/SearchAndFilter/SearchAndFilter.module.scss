@@ -70,10 +70,22 @@
       font-size: var(--step--1);
     }
   }
-  :global(.ais-RefinementList-list) {
-    list-style: none;
+  :global(.ais-RefinementList) {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
+    :global(.ais-RefinementList-list) {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    :global(.ais-RefinementList-showMore) {
+      width: fit-content;
+      margin: auto;
+    }
+    :global(.ais-Highlight-highlighted) {
+      background-color: var(--accent) !important;
+    }
   }
 }

@@ -55,3 +55,17 @@ a,
 button {
   cursor: pointer;
 }
+.ais-InfiniteHits-loadMore,
+.ais-RefinementList-showMore {
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: var(--700);
+  background-color: #fff0;
+  border: 1px solid var(--700);
+  transition: all 0.25s;
+}
+.ais-InfiniteHits-loadMore:hover,
+.ais-RefinementList-showMore:hover {
+  background-color: var(--700);
+  color: var(--100);
+}
