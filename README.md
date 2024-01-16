@@ -58,7 +58,7 @@ Open http://localhost:3000 to see the app ✌️
 
 Set env variables to point the app to the Typesense Cluster
 
-```
+```env
 NEXT_PUBLIC_TYPESENSE_SEARCH_ONLY=xxx
 NEXT_PUBLIC_TYPESENSE_HOST=xxx.typesense.net
 NEXT_PUBLIC_TYPESENSE_PORT=443
