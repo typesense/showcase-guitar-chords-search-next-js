@@ -14,14 +14,11 @@ import GuitarChordData from './data/guitar.json';
   });
 
   try {
-    const collection = await typesense.collections('guitar-chords').retrieve();
+    await typesense.collections('guitar-chords').retrieve();
     console.log('Found existing collection of guitar-chords');
 
-    if (collection.num_documents !== GuitarChordData.length) {
-      console.log('Collection has different number of documents than data');
-      console.log('Deleting collection');
-      await typesense.collections('guitar-chords').delete();
-    }
+    console.log('Deleting collection');
+    await typesense.collections('guitar-chords').delete();
   } catch (err) {
     console.error(err);
   }
@@ -40,6 +37,7 @@ import GuitarChordData from './data/guitar.json';
       {
         name: 'suffix',
         type: 'string',
+        facet: true,
       },
       {
         name: 'positions',
@@ -52,6 +50,7 @@ import GuitarChordData from './data/guitar.json';
         facet: true,
       },
     ],
+    symbols_to_index: ['#'],
   });
 
   console.log('Populating collection...');
