@@ -6,6 +6,6 @@ import Home from './page';
 describe('<Home/>', () => {
   it('Should render <SearchAndFilter/>', () => {
     render(<Home />);
-    expect(screen.getByText('Filter results')).toBeInTheDocument();
+    expect(screen.getByText('Suffix')).toBeInTheDocument();
   });
 });
