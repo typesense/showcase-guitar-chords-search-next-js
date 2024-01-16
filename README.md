@@ -1,11 +1,9 @@
 # 🎸 Instant Guitar Chord Positions Search, powered by Typesense
 
-View it live here: [typesense-guitar-chords.vercel.app](https://typesense-guitar-chords.vercel.app/)
-
 ## Tech Stack
 
 - <a href="https://github.com/typesense/typesense" target="_blank">Typesense</a>
-- NextJS. There is also a [Nuxt version](https://github.com/phiHero/typesense-guitar-chords-nuxt)
+- NextJS. There is also a [Nuxt version](https://github.com/typesense/showcase-guitar-chords-search-nuxt-js)
 - Typescript
 - Sass
 - Vitest
@@ -29,9 +27,9 @@ To run this project locally, make sure you have docker and nodejs, install the d
 Installation
 
 ```shell
-git clone https://github.com/phiHero/typesense-guitar-chords-nextjs.git
+git clone https://github.com/typesense/showcase-guitar-chords-search-next-js.git
 
-cd typesense-guitar-chords-nextjs
+cd showcase-guitar-chords-search-next-js
 
 npm i
 ```
@@ -56,3 +54,13 @@ npm run dev
 
 Open http://localhost:3000 to see the app ✌️
 
+## Deployment
+
+Set env variables to point the app to the Typesense Cluster
+
+```env
+NEXT_PUBLIC_TYPESENSE_SEARCH_ONLY=xxx
+NEXT_PUBLIC_TYPESENSE_HOST=xxx.typesense.net
+NEXT_PUBLIC_TYPESENSE_PORT=443
+NEXT_PUBLIC_TYPESENSE_PROTOCOL=https
+```
