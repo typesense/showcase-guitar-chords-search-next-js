@@ -15,6 +15,7 @@ export default function Home() {
         <InstantSearch
           indexName='guitar-chords'
           searchClient={typesenseInstantsearchAdapter.searchClient}
+          future={{ preserveSharedStateOnUnmount: true }}
         >
           <Configure hitsPerPage={6} />
           <SearchAndFilter />
