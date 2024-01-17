@@ -6,7 +6,7 @@ export const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     nodes: [
       {
         host: process.env.NEXT_PUBLIC_TYPESENSE_HOST || 'localhost',
-        port: parseInt(process.env.NEXT_PUBLIC_TYPESENSE_PORT || '0') || 8108,
+        port: parseInt(process.env.NEXT_PUBLIC_TYPESENSE_PORT || '8108'),
         protocol: process.env.NEXT_PUBLIC_TYPESENSE_PROTOCOL || 'http',
       },
     ],
