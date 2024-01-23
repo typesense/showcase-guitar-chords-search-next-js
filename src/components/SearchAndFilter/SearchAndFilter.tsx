@@ -13,6 +13,9 @@ export default function SearchAndFilter() {
         attribute='key'
         sortBy={['name']}
         classNames={classNames}
+        showMore
+        limit={7}
+        showMoreLimit={100}
       />
       <h3>Suffix</h3>
       <RefinementList
