@@ -1,4 +1,4 @@
-import { GithubIcon } from '../icons';
+import { GithubIcon, NextJSIcon } from '../icons';
 import s from './Heading.module.scss';
 
 export default function Heading() {
@@ -15,7 +15,8 @@ export default function Heading() {
             id={s.typesense}
           >
             type<b>sense</b>|
-          </a>
+          </a>{' '}
+          & <NextJSIcon id={s.nextjsLogo} />
         </div>
       </div>
       <a
