@@ -24,6 +24,11 @@
     top: -50%;
     animation: move 40s ease-out infinite;
   }
+  #nextjsLogo {
+    width: calc(2.5vmax + 2.25rem);
+    position: relative;
+    margin-left: 0.15vmax;
+  }
 }
 #githubLink {
   position: fixed;
