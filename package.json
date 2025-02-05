@@ -1,5 +1,5 @@
 {
-  "name": "search-ui",
+  "name": "showcase-guitar-chords-search-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,29 +15,29 @@
   },
   "dependencies": {
     "@tombatossals/react-chords": "^0.2.10",
-    "next": "14.0.4",
+    "next": "15.1.4",
     "react": "^18",
     "react-dom": "^18",
-    "react-instantsearch": "^7.5.2",
-    "typesense": "^1.7.2",
-    "typesense-instantsearch-adapter": "^2.7.1"
+    "react-instantsearch": "^7.14.0",
+    "typesense": "^1.8.2",
+    "typesense-instantsearch-adapter": "^2.8.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.1.6",
-    "@testing-library/react": "^14.1.2",
-    "@testing-library/user-event": "^14.5.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@vitejs/plugin-react": "^4.2.1",
-    "cypress": "^13.6.2",
-    "dotenv": "^16.3.2",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4",
-    "happy-dom": "^12.10.3",
-    "sass": "^1.69.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "cypress": "^13.17.0",
+    "dotenv": "^16.4.7",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.4",
+    "happy-dom": "^16.6.0",
+    "sass": "^1.83.4",
     "typescript": "^5",
-    "vite-tsconfig-paths": "^4.2.2",
-    "vitest": "^1.1.0"
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^2.1.8"
   }
 }
